@@ -8,10 +8,10 @@ from qlearning.ExperienceReplay import Memory, Experience
 from pacman.actions import Action
 from pacman.game import Game
 from pacman.gamelogic import ActionEvent, get_next_game_state_from_action
-from keras import Sequential
-from keras.layers import Dense
-from keras.optimizers import sgd
-from keras.models import load_model
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.models import load_model
 
 
 def calculate_reward_for_move(action_event):
@@ -46,7 +46,7 @@ class DeepQ(object):
         self.model.add(Dense(512, input_shape=(self.input_size,), activation='relu'))
         self.model.add(Dense(512, activation='relu'))
         self.model.add(Dense(self.num_actions))
-        self.model.compile(sgd(lr=.01), "mse")
+        self.model.compile(SGD(lr=.01), "mse")
 
         return self.model
 
