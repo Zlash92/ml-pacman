@@ -27,6 +27,7 @@ If it does not work, do not worry. We will help you on the day of the workshop.
 [Presentation slides](https://drive.google.com/file/d/11g8kM7mosJ_tyy1uRzRVIY4wpFyR2R3D/view)
 
 # Project setup
+Note: Latest version of Python is 3.9, but it is not yet compatible with tensorflow.
 
 #### IDE
 We recommend using PyCharm by JetBrains: https://www.jetbrains.com/pycharm/
@@ -42,7 +43,7 @@ The following steps are OS-dependent and after installing the dependecies you sh
 
 #### Python
 
-* Install python 3.7 from https://www.python.org/downloads/windows/. Follow the install guide, but make sure that the `install pip` checkbox is checked, and that `add python to path` is checked. That makes it a lot easier. You should now be able to write `python` in the command prompt to start python.
+* Install python 3.8 from https://www.python.org/downloads/windows/. Follow the install guide, but make sure that the `install pip` checkbox is checked, and that `add python to path` is checked. That makes it a lot easier. You should now be able to write `python` in the command prompt to start python.
 * You can either install Python packages globally or in a virtual environment.
 It is advisable to create a separate virtual environment for all your Python projects,
 so that they do not interfere with each other.
@@ -77,7 +78,7 @@ If you want to use anaconda you are welcome to do so, but we don't have much kno
 * Clone this repository: ```git clone https://github.com/knowit/ml-pacman.git```
 
 #### Python
-* Download Python 3.7: https://www.python.org/downloads/
+* Download Python 3.8: https://www.python.org/downloads/
 * You can either install Python packages globally or in a virtual environment.
 It is advisable to create a separate virtual environment for all your Python projects,
 so that they do not interfere with each other.
@@ -105,7 +106,7 @@ which means you're inside the virtual environment. Now you can install the requi
 * Install Python:
 ```
 sudo apt-get update
-sudo apt-get install python3.7
+sudo apt-get install python3.8
 ```
 * If this doesn't work execute this: `sudo add-apt-repository ppa:deadsnakes/ppa` and try the previous commands again
 * You can either install Python packages globally or in a virtual environment.
