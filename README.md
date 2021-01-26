@@ -11,7 +11,7 @@ If you have the time, it is preferable that you get this up and running beforeha
 so that we can spend more time on the fun stuff during the workshop.
 
 If you know your way around Python and Python environments, all you have to do is:
- * Clone this repository: ```git clone https://github.com/knowit/ml-pacman.git```
+ * Clone this repository: ```git clone https://github.com/Zlash92/ml-pacman.git```
  * Install the required packages for the project: `pip install -r requirements.txt`
  * Head into the jupyter package and run jupyter_main.py.
  A graphical interface with our version of Pac-Man should show on the screen if the setup is right.
@@ -38,7 +38,7 @@ The following steps are OS-dependent and after installing the dependecies you sh
 
 #### Git
 * Install git bash for windows and run it as administrator after installation https://git-scm.com/download/win. Execute every following command with this shell.
-* Clone this repository with ```git clone https://github.com/knowit/ml-pacman.git```
+* Clone this repository with ```git clone https://github.com/Zlash92/ml-pacman.git```
 
 
 #### Python
@@ -75,7 +75,7 @@ If you want to use anaconda you are welcome to do so, but we don't have much kno
 
 #### Git
 * Install git: https://git-scm.com/download/mac
-* Clone this repository: ```git clone https://github.com/knowit/ml-pacman.git```
+* Clone this repository: ```git clone https://github.com/Zlash92/ml-pacman.git```
 
 #### Python
 * Download Python 3.8: https://www.python.org/downloads/
@@ -100,7 +100,7 @@ which means you're inside the virtual environment. Now you can install the requi
 ### Ubuntu
 #### Git
 * Install git with ```sudo apt-get install git```. (https://git-scm.com/download/linux)
-* Clone this repository with ```git clone https://github.com/knowit/ml-pacman.git```
+* Clone this repository with ```git clone https://github.com/Zlash92/ml-pacman.git```
 
 #### Python
 * Install Python:
